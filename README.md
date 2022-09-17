@@ -10,11 +10,15 @@ of the Department of Computer and Informatics Engineering: the tradition of desi
 Although the authors were faced with the dilemma of "building something from scratch" or "to
 rely on something ready and build on it', there were several reasons that
 they pushed us to the second solution:
+
 • Supporting any custom-made system is extremely difficult
 in the academic environment where the faces are constantly changing.
+
 • Developing support tools (emulators, debuggers, ...) is extremely laborious.
+
 • Developing from scratch requires a very large investment of time, with doubts
 Results.
+
 The AT91 platform hardware is essentially a commercially available development board (AT91SAM9261EK from ATMEL). On this board we can
 develop hardware and software applications for the AT91SAM9261 microcontroller,
 which is an enriched implementation by the ATMEL company of the processor
