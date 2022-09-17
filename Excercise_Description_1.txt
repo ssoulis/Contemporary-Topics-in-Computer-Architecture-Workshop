@@ -1,0 +1,19 @@
+Exercise 1: Implementing basic commands (introduction)
+The goal of the current exercise is to write microprograms (groups of microinstructions) for
+the implementation of some basic instructions of a processor based on the use of accumulator
+(Accumulator). That is, we will use our machine to execute instructions of a processor
+based on accumulator usage (emulation of a usage-based processor
+accumulator). According to the classic definition, the programmer at the command level of a language
+machine sees only one register, which we call the accumulator.Every act is done in between
+of the contents of the accumulator and a memory location and the result is stored in
+accumulator. Of the 16 registers use one as a Program Counter and one
+as an accumulator. We remind you that the Program Counter is one
+register which each time contains (points to) the address of the memory location that contains it
+next command to execute.
+
+Required Microprograms
+Write microprograms to implement the following commands.
+• LDA $K : load the contents of the memory location with address K into the accumulator.
+• ADD $K : add, without a prisoner, the contents of the accumulator with its contents
+memory location with address K and store the result in the accumulator.
+• STA $K : store the contents of the accumulator in the memory location with address K.

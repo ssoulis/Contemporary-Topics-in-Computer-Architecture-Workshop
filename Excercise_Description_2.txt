@@ -1,0 +1,22 @@
+Exercise 2: Implement basic addressing modes
+processor based on accumulator usage
+In the previous exercise we saw the weakness of a machine based on the use of an accumulator with the classical one
+definition. In this exercise we will consider an accumulator-based machine (each operation is
+between the contents of the accumulator and the contents of a memory location and the result is stored
+in the accumulator) but also has other registers, one in our case, that can be used
+by the programmer at the machine language level and which we call auxiliary register X. The purpose
+of this exercise is to implement various addressing methods. Initially you should
+the registers to be used as accumulator, Program Counter and auxiliary are selected
+X register respectively.
+
+LDA #K : Load the two-digit hexadecimal number K into the accumulator.
+ LDX #K : Load the 2-digit hexadecimal number K into the auxiliary register X.
+ LDA ($K) : Load the contents of the memory location at address into the accumulator
+contents of the memory location with address K.
+ LDAX : Load the contents of the memory location at address into the accumulator
+contents of the X register.
+LDA K(X) : Load the contents of the memory location with address equal to into the accumulator
+sum of the two-digit hexadecimal number K and its content
+auxiliary register X.
+ MOVEAX : Moved the contents of the X register into the accumulator
+ STA $K : Store the contents of the accumulator in the memory location with address K

@@ -1,0 +1,27 @@
+Exercise 3: Implementation of usage-based processor instructions
+accumulator
+The purpose of this exercise is to implement basic arithmetic and flow control commands
+processor program based on accumulator usage
+
+Required Microprograms
+Write microprograms to implement the following commands.
+ LDA K(X) : Load the contents of the memory location with address equal to the accumulator
+with the sum of the two-digit hexadecimal number K and the content
+of the X auxiliary register.
+ LDX #K : Load the 2-digit hexadecimal number K into the auxiliary register X.
+ INCH : Increase by one (1) the contents of the X auxiliary register.
+ CMPX #K : Compare the contents of auxiliary register X with the binary
+hexadecimal number K.
+ STA K(X) : Store the contents of the accumulator in the memory location with address to
+sum of the two-digit hexadecimal number K and its content
+auxiliary register X.
+ADC K(X) : Add the contents of the accumulator with the contents of the memory location
+with an address equal to the sum of the two-digit hexadecimal number K and the
+auxiliary register X and the input detainer and store it
+result in the accumulator.
+ CRC : Clear the prisoner flag (C=0).
+ JNZ $K : If the zero flag is zero (Z=0) go
+to execute the command that is in address K (ie load to
+Program Counter the value K).
+ SHLA : Left shift the contents of the accumulator by one position.
+ HALT : End of program execution.
