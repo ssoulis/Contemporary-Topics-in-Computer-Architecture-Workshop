@@ -31,6 +31,6 @@ Development of microprograms in 'symbolic' language for the development board Α
 
 VERSION or DATE: SPRING 2020
 
-The doc and txt reports were originally written by me in Greek and were translated by me so they may have some mistakes in the translation :)
+The doc and txt reports were originally written by me in Greek and they were translated by me so there may be some mistakes (grammar) :)
 
 Thank you for your time!
